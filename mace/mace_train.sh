@@ -1,0 +1,25 @@
+mace_run_train \
+    --name="MACE_model" \
+    --energy_key="energy_mace" \
+    --forces_key="forces_mace" \
+    --stress_key="stress_mace" \
+    --train_file="MTP_d3_16_520_new.xyz" \
+    --valid_fraction=0.01 \
+    --energy_weight=50.0 \
+    --forces_weight=50.0 \
+    --stress_weight=1.0 \
+    --config_type_weights='{"Default":1.0}' \
+    --E0s='{1:-1.11723352, 3:-0.29395711, 6:-1.38596326, 8:-1.90573980, 9:-0.42400934, 15:-1.88706144}' \
+    --model="MACE" \
+    --hidden_irreps='128x0e + 128x1o' \
+    --r_max=5.0 \
+    --batch_size=4 \
+    --max_num_epochs=200 \
+    --swa \
+    --start_swa=1200 \
+    --ema \
+    --ema_decay=0.99 \
+    --amsgrad \
+    --default_dtype=float32 \
+    --restart_latest \
+    --device=cuda \
