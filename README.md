@@ -11,7 +11,7 @@ This repository includes initial starting structures, traning data, and the inpu
 - mace_train.sh  #parameters for mace
 - MTP_d3_16_520.tar.gz #training data from DFT+d3
 
-## test_set
+## test_sets
 - Each file include 10000 structures
 
 ## Usage
