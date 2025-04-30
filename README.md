@@ -12,7 +12,5 @@ This repository includes traning data, test data and the input for training usin
 - MTP_d3_16_520.tar.gz #training data from DFT+d3
 
 ## test_sets
-- Each file include 10000 structures
-
-## Usage
 - tar -zxvf xxx.tar.gz
+- Each file include 10000 structures
