@@ -1,5 +1,5 @@
 # LiCOHPF_database_1
-This repository includes initial starting structures, traning data, and the input for training using MTP or mace
+This repository includes traning data, test data and the input for training using MTP or mace
 
 ## MTP
 - pot.tar.gz # obtained MTP model
