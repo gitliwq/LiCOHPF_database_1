@@ -1,5 +1,6 @@
 # LiCOHPF_database_1
 This repository includes training data, test data and the input for training using MTP or mace. 
+If you use data, please cite this paper: 
 
 ## MTP
 - pot.tar.gz # obtained MTP model
