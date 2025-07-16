@@ -1,6 +1,7 @@
 # LiCOHPF_database_1
 This repository includes training data, test data and the input for training using MTP or mace. 
 If you use data, please cite this paper: 
+Li, W.-Q.; Wu, G.; Arce-Ramos, J. M.; Lau, Y. H.; Ng, M.-F. Enabling Accurate Modelling of Solid Electrolyte Interphase in Lithium-Ion Batteries Using Effective Machine Learning Interatomic Potentials. Manuscript Submitted, 2025.
 
 ## MTP
 - pot.tar.gz # obtained MTP model
